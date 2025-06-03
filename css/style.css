@@ -110,6 +110,7 @@ button:hover {
     background-color: white;
     padding: 0px 52px 52px 52px;
     font-size: 8px;
+    font-weight: 550;
 }
 
 .h1cv {
@@ -117,10 +118,30 @@ button:hover {
     margin-top: 34px auto auto 0px;
 }
 
+.cv ul>li {
+  line-height: 1.6;
+}
+
 .job-row {
   display: flex;
   justify-content: space-between;
 }
+.pcv {
+  margin-top: -20px;
+}
 .left, .right {
-  font-weight: bold;
+  font-weight: 850;
+}
+.divider {
+  border: 0;
+  height: 1px;
+  background: #444;
+  margin: 5px 0 7px 0;
+}
+ul {
+  list-style-type: disc;
+}
+ul li::marker {
+  font-size: 1.5em;
+  color: black;
 }
